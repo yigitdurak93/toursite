@@ -44,4 +44,7 @@ ul li {
     #container-main span {
         font-size: 3vw;
     }
+    .middle {
+        display: none;
+    }
 }

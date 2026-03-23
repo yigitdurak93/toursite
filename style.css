@@ -101,5 +101,6 @@ ul li {
     }
     #bltn {
         flex-direction: column;
+        text-align: center;
     }
 }

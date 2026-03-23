@@ -52,6 +52,30 @@ ul li {
   color: beige;
 }
 
+#bltn {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: brown;
+    margin-top: 5px;
+}
+
+#bltn1 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+#bltnbtn {
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px;
+    background-color:crimson;
+}
+
 @media screen and (max-width:765px) {
     #container-main {
         flex-direction: column;
@@ -74,5 +98,8 @@ ul li {
     }
     #mbd {
         font-size: 30px;
+    }
+    #bltn {
+        flex-direction: column;
     }
 }

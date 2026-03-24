@@ -2,6 +2,9 @@
 body {
     margin: 0;
 }
+#container {
+   position: relative;
+}
 #container-main {
     display: flex;
     justify-content: space-around;
@@ -75,6 +78,30 @@ ul li {
     padding: 8px;
     background-color:crimson;
 }
+#popup {
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    width: 40%;
+    display: none;
+    border: 1px solid black;
+    padding: 4px;
+    background-color: brown;
+    text-align: center;
+}
+#close {
+    position: absolute;
+    right: 3px;
+    top: 0px;
+    color: white;
+    cursor:default;
+    
+}
+#note {
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
 
 @media screen and (max-width:765px) {
     #container-main {
@@ -102,5 +129,11 @@ ul li {
     #bltn {
         flex-direction: column;
         text-align: center;
+    }
+    
+    #popup {
+        position: absolute;
+        top:250px;
+        left: 250px;
     }
 }

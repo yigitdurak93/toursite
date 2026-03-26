@@ -24,11 +24,14 @@ function out_mouse(id){
     let select = document.getElementById(id);
     setWtdh(select,'0');
 }
-window.addEventListener('load', ()=> {
+function eventStart(){
     setDsply(sec,'block');
     setOpc(secCon,'0.4');
     setPvnt(secCon,'none');
     setOvr(sec3,'hidden');
+}
+window.addEventListener('load', ()=> {
+    setTimeout(eventStart,2000);
 });
 function closer(){
     setDsply(sec,'none');

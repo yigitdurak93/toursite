@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<head>
-    <title>Gezi Rehberiniz</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./pictures/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/840f5528a9.js" crossorigin="anonymous"></script>
-</head>
-<body id="body">
-    <div id="container">
-    <div id="container-main" style="background-color: brown;">
+<div id="container-main" style="background-color: brown;">
         <img src="./pictures/indir.jpg" style="width: 100px; height: 100px;">
     <ul type="none" id="liste">
         <li>
@@ -34,18 +24,3 @@
     </ul>
     <span class="dancing-script-uniquifier">Seyahat Etmek Özgürlüktür</span>
     </div>
-    <div id="mnst">
-        <span id="mbd">Tüm İadelerde Kesinti Yok!</span>
-    </div>
-    <div id="bltn">
-        <span id="bltn1">En güncel gezi ve seyahat etkinliklerimizden haberiniz olsun</span>
-        <a id="bltnbtn" href="#">Abone Ol!</a>
-    </div>
-    </div>
-    <div id="popup">
-        <div id="close" onclick="closer()">x</div>
-        <div id="note">Bu yıl için tüm kontenjanlarımız dolmuştur.</div>
-    </div>
-    <script src="app.js"></script>
-</body>
-</html>

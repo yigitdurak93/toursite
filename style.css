@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 body {
     margin: 0;
+    position: relative;
 }
-#container {
-   position: relative;
-}
+
 #container-main {
     display: flex;
     justify-content: space-around;
@@ -79,9 +78,9 @@ ul li {
     background-color:crimson;
 }
 #popup {
-    position: absolute;
-    top: 250px;
-    left: 350px;
+    position:absolute;
+    top: 50%;
+    left: 27%;
     width: 40%;
     display: none;
     border: 1px solid black;
@@ -91,8 +90,8 @@ ul li {
 }
 #close {
     position: absolute;
-    right: 3px;
-    top: 0px;
+    top: 4px;
+    right: 4px;
     color: white;
     cursor:default;
     
@@ -103,7 +102,7 @@ ul li {
     color: white;
 }
 
-@media screen and (max-width:765px) {
+@media screen and (max-width:1279px) {
     #container-main {
         flex-direction: column;
     }
@@ -133,8 +132,11 @@ ul li {
     
     #popup {
         position: absolute;
+        top: 50%;
+        left: 18%;
         width: 60%;
-        top:300px;
-        left: 80px;
+        
+        padding: 8px;
+    
     }
 }

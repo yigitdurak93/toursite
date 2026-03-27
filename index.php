@@ -2,18 +2,10 @@
 <body id="body">
     <div id="container">
     <?php include('navbar.php') ?>
-    <div id="mnst">
-        <span id="mbd">Tüm İadelerde Kesinti Yok!</span>
+    <?php include('mnst.php') ?>
+    <?php include('bltn.php') ?>
     </div>
-    <div id="bltn">
-        <span id="bltn1">En güncel gezi ve seyahat etkinliklerimizden haberiniz olsun</span>
-        <a id="bltnbtn" href="#">Abone Ol!</a>
-    </div>
-    </div>
-    <div id="popup">
-        <div id="close" onclick="closer()">x</div>
-        <div id="note">Bu yıl için tüm kontenjanlarımız dolmuştur.</div>
-    </div>
+    <?php include('popup.php') ?>
     <script src="app.js"></script>
 </body>
 </html>
